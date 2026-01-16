@@ -13,4 +13,12 @@ teams.forEach(team => {
     team.falliSubiti = Math.floor(Math.random() * 50);
 });
 
+//nuovo array con nome e falli subiti//
+const teamsFouls = [];
 
+for (let i = 0; i < teams.length; i++) {
+  teamsFouls.push({
+    nome: teams[i].nome,
+    falliSubiti: teams[i].falliSubiti
+  });
+}
