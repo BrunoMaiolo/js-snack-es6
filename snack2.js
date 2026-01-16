@@ -24,4 +24,8 @@ for (let i = 0; i < teams.length; i++) {
 }
 
 //stampa//
-console.log("Squadre con punti e falli subiti", teams);
+console.log("Squadre (ordine originale):");
+
+teams.forEach(team => {
+  console.log(team.nome, team.punti);
+});
