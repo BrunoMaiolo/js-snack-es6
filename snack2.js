@@ -10,7 +10,7 @@ const teams = [
 //generare numeri random//
 teams.forEach(team => {
     team.punti = Math.floor(Math.random() * 100);
-    team.falliSubiti = Math.floor(Math() * 50);
+    team.falliSubiti = Math.floor(Math.random() * 50);
 });
 
 
