@@ -9,8 +9,8 @@ const teams = [
 
 //generare numeri random//
 teams.forEach(team => {
-    team.punti = Math.floor(Math.random() * 100);
-    team.falliSubiti = Math.floor(Math.random() * 50);
+    team.punti = Math.floor(Math.random() * 91);
+    team.falliSubiti = Math.floor(Math.random() * 81) + 20;
 });
 
 //nuovo array con nome e falli subiti//
