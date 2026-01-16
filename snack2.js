@@ -1,10 +1,10 @@
 //array di squadre//
 const teams = [
-    {nome: "Inter", punti: 46, falliSubiti: 27  },
-    {nome: "Milan", punti: 43, falliSubiti: 40},
-    {nome: "Napoli", punti: 40, falliSubiti: 20},
-    {nome: "Juventus", punti: 39, falliSubiti: 25},
-    {nome: "Roma", punti: 39, falliSubiti: 33}
+    {nome: "Inter", punti: 0, falliSubiti: 0  },
+    {nome: "Milan", punti: 0, falliSubiti: 0},
+    {nome: "Napoli", punti: 0, falliSubiti: 0},
+    {nome: "Juventus", punti: 0, falliSubiti: 0},
+    {nome: "Roma", punti: 0, falliSubiti: 0}
 ];
 
 
