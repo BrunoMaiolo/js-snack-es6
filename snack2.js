@@ -22,3 +22,6 @@ for (let i = 0; i < teams.length; i++) {
     falliSubiti: teams[i].falliSubiti
   });
 }
+
+//stampa//
+console.log("Squadre con punti e falli subiti", teams);
