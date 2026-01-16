@@ -15,3 +15,7 @@ const bikes = [
         lightestBike = bikes[i];
     }
  }
+
+ //stampa//
+ console.log("La bici piu' leggera e':", lightestBike.nome, "peso", lightestBike.peso, "kg");
+ 
