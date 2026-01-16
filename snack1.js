@@ -6,3 +6,12 @@ const bikes = [
 { nome: "Piaggio", peso: 15},
 { nome: "Pininfarina", peso: 11}, 
 ];
+
+//trovare la bici piu leggera//
+ let lightestBike = bikes[0];
+
+ for (let i = 1; i < bikes.length; i++) {
+    if (bikes[i].peso < lightestBike.peso) {
+        lightestBike = bikes[i];
+    }
+ }
